@@ -1,7 +1,7 @@
 body
 {
-  padding: 16px;
-  margin: 16px;
+  padding: 1em;
+  margin: 1em;
   border: 0px;
   background-color: #fafafa;
   color: #1d1b1a;
@@ -9,35 +9,35 @@ body
 }
 h1
 {
-  font-size: 32px;
+  font-size: 2em;
   font-style: normal;
   font-weight: normal;
   text-align: center;
 }
 h2
 {
-  font-size: 24px;
+  font-size: 1.5em;
   font-style: normal;
   font-weight: bold;
   text-align: left;
 }
 h3
 {
-  font-size: 18px;
+  font-size: 1.125em;
   font-style: italic;
   font-weight: normal;
   text-align: left;
 }
 h4
 {
-  font-size: 14px;
+  font-size: 0.875em;
   font-style: normal;
   font-weight: normal;
   text-align: center;
 }
 p
 {
-  font-size: 18px;
+  font-size: 1.125em;
   font-style: normal;
   font-weight: normal;
   text-align: left;
@@ -45,8 +45,8 @@ p
 .container
 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
-  gap: 32px;
+  grid-template-columns: repeat(auto-fit, 20em);
+  gap: 2em;
   justify-content: center;
 }
 #nonselectable
