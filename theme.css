@@ -2,7 +2,7 @@ body
 {
   padding: 1em;
   margin: 1em;
-  border: 0px;
+  border: 0em;
   background-color: #fafafa;
   color: #1d1b1a;
   font-family: Canaro;
@@ -60,7 +60,7 @@ p
 }
 #cryptocontact:after
 {
-  content: attr(user) "@" attr(domain) "." attr(extension) " | " attr(code) attr(operator) attr(number) " | " attr(city);
+  content: attr(user) "@" attr(domain) "." attr(extension) " | " attr(code) attr(operator) attr(number) " | " attr(city) ", " attr(country);
 }
 @font-face
 {
