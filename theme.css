@@ -1,55 +1,52 @@
 body
 {
-  padding: 1em;
-  margin: 1em;
-  border: 0em;
-  background-color: #fafafa;
-  color: #1d1b1a;
+  margin: 0em;
+  background-color: #333333; /* gray */
+  color: #fafafa; /* white */
   font-family: Canaro;
 }
 h1
 {
-  font-size: 1.65em;
+  font-size: 1.5em;
   font-style: normal;
-  font-weight: normal;
-  text-align: center;
+  font-weight: bold;
 }
 h2
 {
   font-size: 1.5em;
   font-style: normal;
-  font-weight: bold;
-  text-align: left;
+  font-weight: normal;
 }
 h3
 {
   font-size: 1.125em;
   font-style: italic;
   font-weight: normal;
-  text-align: left;
 }
 h4
 {
-  font-size: 0.875em;
+  font-size: 1.0em;
   font-style: normal;
   font-weight: normal;
-  text-align: center;
 }
 p
 {
   font-size: 1.125em;
   font-style: normal;
   font-weight: normal;
-  text-align: left;
 }
 .container
 {
   display: grid;
   grid-template-columns: repeat(auto-fit, 20em);
   gap: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
   justify-content: center;
 }
-#logotype
+.nonselectable
 {
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -58,14 +55,34 @@ p
   -o-user-select: none;
   user-select: none;
 }
+#header
+{
+  padding: 0.75em;
+  padding-left: 2em;
+}
+#footer
+{
+  padding: 1em;
+  text-align: center;
+}
+#logotype
+{
+  margin: 0em;
+}
 #works
 {
+  background-color: #fafafa; /* white */
+  color: #1d1d1d; /* black */
 }
 #experience
 {
+  background-color: #1d1d1d; /* black */
+  color: #fafafa; /* white */
 }
 #hobby
 {
+  background-color: #fafafa; /* white */
+  color: #1d1d1d; /* black */
 }
 #contact:after
 {
