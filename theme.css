@@ -75,20 +75,15 @@ p
 {
   margin: 0em;
 }
-#works
+#whitebox
 {
   background-color: #fafafa; /* white */
   color: #1d1d1d; /* black */
 }
-#experience
+#blackbox
 {
   background-color: #1d1d1d; /* black */
   color: #fafafa; /* white */
-}
-#hobby
-{
-  background-color: #fafafa; /* white */
-  color: #1d1d1d; /* black */
 }
 #contact:after
 {
