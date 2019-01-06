@@ -64,6 +64,11 @@ p
   padding-bottom: 4em;
   justify-content: center;
 }
+.headline
+{
+  display: grid;
+  align-content: center;
+}
 .nonselectable
 {
   -webkit-user-select: none;
