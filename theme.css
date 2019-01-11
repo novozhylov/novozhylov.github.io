@@ -68,6 +68,11 @@ p
   padding-bottom: 4em;
   justify-content: center;
 }
+.container div > img
+{
+  object-fit: cover;
+  width: 100%;
+}
 .headline
 {
   display: grid;
