@@ -60,7 +60,7 @@ p
 .container
 {
   display: grid;
-  grid-template-columns: repeat(1, 40em);
+  grid-template-columns: repeat(1, 0.95fr);
   gap: 4em;
   padding-left: 4em;
   padding-right: 4em;
