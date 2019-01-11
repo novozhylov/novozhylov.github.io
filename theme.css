@@ -7,65 +7,65 @@ body
 }
 h1
 {
-  font-size: 3em;
+  font-size: 6em;
   font-style: normal;
   font-weight: bold;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 h2
 {
-  font-size: 1.5em;
+  font-size: 3em;
   font-style: normal;
   font-weight: bold;
-  padding-top: 0.5em;
-  padding-bottom: 0.25em;
-  margin-top: 0.5em;
-  margin-bottom: 0.25em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 h3
 {
-  font-size: 1.5em;
+  font-size: 3em;
   font-style: normal;
   font-weight: normal;
 }
 h4
 {
-  font-size: 1.125em;
+  font-size: 2.25em;
   font-style: italic;
   font-weight: normal;
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 h5
 {
-  font-size: 1.0em;
+  font-size: 2.0em;
   font-style: normal;
   font-weight: normal;
 }
 p
 {
-  font-size: 1.125em;
+  font-size: 2.25em;
   font-style: normal;
   font-weight: normal;
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 .container
 {
   display: grid;
   grid-template-columns: repeat(1, 40em);
-  gap: 2em;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 4em;
-  padding-bottom: 4em;
+  gap: 4em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 8em;
+  padding-bottom: 8em;
   justify-content: center;
 }
 .container div > img
@@ -140,8 +140,53 @@ p
 /* Width enough to fit enought at least 3 columns with either low or high resolution display */
 @media (min-width: 48em) and (max-resolution: 192dpi), (min-width: 96em) and (min-resolution: 192dpi)
 {
+  h1
+  {
+    font-size: 3em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+  }
+  h2
+  {
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+  }
+  h3
+  {
+    font-size: 1.5em;
+  }
+  h4
+  {
+    font-size: 1.125em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+  h5
+  {
+    font-size: 1.0em;
+  }
+  p
+  {
+    font-size: 1.125em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
   .container
   {
     grid-template-columns: repeat(auto-fit, 20em);
+    gap: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
   }
 }
