@@ -138,7 +138,7 @@ p
   font-style: normal;
 }
 /* Width enough to fit enought at least 3 columns with either low or high resolution display */
-@media (min-width: 48em) and (max-resolution: 190dpi), (min-width: 96em) and (min-resolution: 190dpi)
+@media (min-width: 48em) and (max-resolution: 192dpi), (min-width: 96em) and (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) and (min-width: 96em)
 {
   h1
   {
